@@ -1,26 +1,16 @@
-Hello, Reviewers!
+You can use Insomnia or other REST clients for testing
 
-You can run available unittests from VS terminal using command: python manage.py test tests/
-Don't forget to activate vitruan env and cd into littlelemon directory before running unit-tests command.
+Paths:
 
-# This path can be used to check that web application serves static HTML content with images and styles
-/restaurant
-
-You can use the following API paths for testing purposes using Insomnia or Postman clients
-OR just browse using your favorite browser.
-
-# JDOSER endpoint, for example, to make POST request and create new user
-/auth/users/ 
-
-# to login and auth get token
-/api-token-auth/ 
-# to login using JDOSER endpoint
-/auth/token/login 
+1. /restaurant: to check static HTML content with images and styles
+2. /auth/users/: JDOSER endpoint, for example, to make POST request and create new user
+3. /api-token-auth/: to login and auth get token
+4. /auth/token/login: to login using JDOSER endpoint
 
 # menu items (token necessary)
-/restaurant/menu/
-/restaurant/menu/{menuItemId}
+5. /restaurant/menu/
+6. /restaurant/menu/{menuItemId}
 
 # table booking (token necessary)
-/restaurant/booking/tables/
-/restaurant/booking/tables/{bookingId}
+7. /restaurant/booking/tables/
+8. /restaurant/booking/tables/{bookingId}
