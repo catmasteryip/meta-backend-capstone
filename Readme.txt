@@ -17,10 +17,10 @@ OR just browse using your favorite browser.
 # to login using JDOSER endpoint
 /auth/token/login 
 
-# menu items
+# menu items (token necessary)
 /restaurant/menu/
 /restaurant/menu/{menuItemId}
 
-# table booking 
+# table booking (token necessary)
 /restaurant/booking/tables/
 /restaurant/booking/tables/{bookingId}
