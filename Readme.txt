@@ -1,4 +1,5 @@
 You can use Insomnia or other REST clients for testing
+Please kindly amend MySQL database settings in settings.py 
 
 Paths:
 
